@@ -19,6 +19,8 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		Image image = new Image(new Texture(Gdx.files.internal("badlogic.jpg")));
 		image.setPosition(100,100);
+		image.setWidth(250);
+		image.setHeight(200);
 		stage.addActor(image);
 
 	}
